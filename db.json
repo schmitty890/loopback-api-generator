@@ -1,0 +1,32 @@
+{
+  "ids": {
+    "User": 3,
+    "AccessToken": 3,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "Product": 3,
+    "Category": 3
+  },
+  "models": {
+    "User": {
+      "1": "{\"username\":\"schmitty890\",\"password\":\"$2a$10$k4Wf./n9JbyLPZYlpJSlA.Fu1o5NeCig8y/jCZUs8l4YBU4P4Zdbu\",\"email\":\"schmitty890@gmail.com\",\"id\":1}",
+      "2": "{\"username\":\"testing\",\"password\":\"$2a$10$FKd5vpD9keHwcRP9e2doZeTMOqSKaKUTvjr2LUJUQJBdF3eJMts1.\",\"email\":\"test@test.com\",\"id\":2}"
+    },
+    "AccessToken": {
+      "JFuO98SwwFAfcuPDo8mhQLJ4mfmGMoYV7h58x4DFvy7DbF7EQYcssleNW5ZWGWFO": "{\"id\":\"JFuO98SwwFAfcuPDo8mhQLJ4mfmGMoYV7h58x4DFvy7DbF7EQYcssleNW5ZWGWFO\",\"ttl\":1209600,\"created\":\"2021-04-16T19:44:51.611Z\",\"userId\":1}",
+      "2ftgsBqv8ALJ1Med3r6WJ4WhX0mep1oBEXv4Z7SIL1oRbu72vEdYM3e5NzeLdUBm": "{\"id\":\"2ftgsBqv8ALJ1Med3r6WJ4WhX0mep1oBEXv4Z7SIL1oRbu72vEdYM3e5NzeLdUBm\",\"ttl\":1209600,\"created\":\"2021-04-16T19:45:08.199Z\",\"userId\":1}"
+    },
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "Product": {
+      "1": "{\"name\":\"coffee\",\"price\":20,\"id\":1}",
+      "2": "{\"name\":\"tea\",\"price\":2,\"categoryId\":1,\"id\":2}"
+    },
+    "Category": {
+      "1": "{\"name\":\"drinks\",\"id\":1}",
+      "2": "{\"name\":\"food\",\"id\":2}"
+    }
+  }
+}
